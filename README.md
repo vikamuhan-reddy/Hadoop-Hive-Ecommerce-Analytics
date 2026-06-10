@@ -19,10 +19,6 @@ The objective was to understand how data moves from local storage into HDFS, bec
 
 ---
 
-## Architecture
-
-![Project Architecture](screenshots/architecture.png)
-
 ### Data Flow
 
 ```text
@@ -143,10 +139,6 @@ ORDER BY customer_count DESC
 LIMIT 10;
 ```
 
-### Result
-
-![Customer State Analysis](screenshots/analysis.png)
-
 ### Key Findings
 
 | State | Customer Count |
@@ -225,10 +217,6 @@ Hadoop-Hive-Ecommerce-Analytics/
 │   ├── session-4-hive-table-creation.md
 │   └── session-5-business-analysis.md
 │
-├── screenshots/
-│   ├── architecture.png
-│   ├── analysis.png
-│   └── jps.png
 │
 └── README.md
 ```
@@ -243,9 +231,3 @@ Hadoop-Hive-Ecommerce-Analytics/
 * Automate ingestion pipelines
 
 ---
-
-## Author
-
-**Vikamuhan Reddy**
-
-Learning Project focused on Hadoop, Hive, HDFS, and Big Data Analytics.
